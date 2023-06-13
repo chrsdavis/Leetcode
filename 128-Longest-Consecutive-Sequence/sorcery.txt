@@ -1,0 +1,1 @@
+https://leetcode.com/problems/longest-consecutive-sequence/solutions/41088/possibly-shortest-cpp-solution-only-6-lines/
