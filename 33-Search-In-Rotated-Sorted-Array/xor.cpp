@@ -4,6 +4,16 @@ class Solution {
 public:
     int search(vector<int>& nums, int target) {
         int lower = 0, upper = nums.size() - 1;
+    while (lower < upper) {
+        int mid = (upper + lower) / 2;
+
+        // if(nums[mid] == target) return mid;
+        if ((nums[0] > target) ^ (nums[0] > nums[mid]) ^ (target > nums[mid]))
+            lower = mid + 1;
+        else
+            upper = mid;
+    }
+    return nums[lower] == target ? lower : -1;
     }
 };
 
