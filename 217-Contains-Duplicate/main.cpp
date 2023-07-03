@@ -1,3 +1,5 @@
+#include "util/common.h"
+
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
