@@ -9,9 +9,9 @@ public:
 
         // if(nums[mid] == target) return mid;
         if ((nums[0] <= target) ^ (nums[0] > nums[mid]) ^ (target <= nums[mid]))
-            lower = mid + 1;
+            lower = mid + 1; // left
         else
-            upper = mid;
+            upper = mid; // right
     }
     return nums[lower] == target ? lower : -1;
     }
