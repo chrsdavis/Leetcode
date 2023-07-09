@@ -3,6 +3,8 @@
 // Loop through array and run normal 2sum on the rest of array to right
 // Can be multiple solutions, so keep advancing the two pointer 2sum algo to find all solutions
 // Note: can optimize more based on negative and positive values since they get sorted
+// I.e. if the first number is >0, then all other numbers are >0, so sum can't be zero
+
 // Runs in O(n^2)
 
 class Solution {
