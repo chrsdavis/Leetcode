@@ -3,6 +3,7 @@
 // using unordered_map< string, map<int, string> > is much easier
 // also, the timestamps are strictly increasing, so you can simply do a binary search on
 // a vector, i.e. unordered_map<string, vector<pair<int, string>>>
+// can do this using std::upper_bound(vec.begin(), vec.end(), target())
 
 class TimeMap {
 private:
