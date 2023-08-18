@@ -7,6 +7,7 @@
         "functional": "cpp",
         "vector": "cpp",
         "unordered_set": "cpp",
-        "__locale": "cpp"
+        "__locale": "cpp",
+        "__node_handle": "cpp"
     }
 }
