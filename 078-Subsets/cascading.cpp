@@ -4,6 +4,8 @@
 -- Cascading Solution --
 Time: O( N x 2^N )
 Memo: O( N x 2^N)
+
+Note: backtracking is only O(N) mem, bitwise/lexigraphical is cool
 ********************* */
 
 class Solution {
