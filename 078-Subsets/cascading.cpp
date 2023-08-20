@@ -8,6 +8,9 @@ Memo: O( N x 2^N)
 Note: backtracking is only O(N) mem, bitwise/lexigraphical is cool
 ********************* */
 
+// loop over numbers one at a time and add them to existing permutations to create new ones
+// i.e. { } U {N} = {N}, {1,2,3} U {N} = {1,2,3,N} etc.
+
 class Solution {
 public:
     vector<vector<int>> subsets(vector<int>& nums) {
