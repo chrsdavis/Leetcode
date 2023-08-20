@@ -8,6 +8,7 @@
         "vector": "cpp",
         "unordered_set": "cpp",
         "__locale": "cpp",
-        "__node_handle": "cpp"
+        "__node_handle": "cpp",
+        "iterator": "cpp"
     }
 }
