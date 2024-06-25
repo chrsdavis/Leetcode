@@ -1,6 +1,6 @@
 #include "util/common.h"
 
-// Note this version is O(1) space
+// Note this version is O(1) space and otherwise optimal
 
 class Solution {
 public:
