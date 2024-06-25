@@ -10,6 +10,7 @@
         "__locale": "cpp",
         "__node_handle": "cpp",
         "iterator": "cpp",
-        "numbers": "cpp"
+        "numbers": "cpp",
+        "ios": "cpp"
     }
 }
