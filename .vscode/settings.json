@@ -32,6 +32,12 @@
         "valarray": "cpp",
         "slist": "cpp",
         "ranges": "cpp",
-        "stacktrace": "cpp"
+        "stacktrace": "cpp",
+        "__bit_reference": "cpp",
+        "forward_list": "cpp",
+        "chrono": "cpp",
+        "format": "cpp",
+        "generator": "cpp",
+        "text_encoding": "cpp"
     }
 }
